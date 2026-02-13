@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axovia CI/CD Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <div class="header-content">
+                <h1>🌲 Axovia CI/CD Dashboard</h1>
+                <p class="subtitle">Real-time pipeline monitoring for all ASPEN-managed projects</p>
+            </div>
+            <div class="header-meta">
+                <span class="last-updated">Last updated: <span id="last-updated">Loading...</span></span>
+                <button id="refresh-btn" class="refresh-btn">🔄 Refresh</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Overview Stats -->
+            <section class="stats-row">
+                <div class="stat-card stat-success">
+                    <div class="stat-icon">✅</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="passing-count">-</span>
+                        <span class="stat-label">Passing</span>
+                    </div>
+                </div>
+                <div class="stat-card stat-danger">
+                    <div class="stat-icon">❌</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="failing-count">-</span>
+                        <span class="stat-label">Failing</span>
+                    </div>
+                </div>
+                <div class="stat-card stat-warning">
+                    <div class="stat-icon">⏳</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="running-count">-</span>
+                        <span class="stat-label">Running</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="pass-rate">-%</span>
+                        <span class="stat-label">Pass Rate (7d)</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Grid -->
+            <section class="projects-section">
+                <h2>📦 Projects</h2>
+                <div id="projects-grid" class="projects-grid">
+                    <!-- Project cards will be populated here -->
+                    <div class="loading-state">Loading projects...</div>
+                </div>
+            </section>
+
+            <!-- Failed Pipelines (if any) -->
+            <section class="failures-section" id="failures-section" style="display: none;">
+                <h2>🚨 Failed Pipelines</h2>
+                <div id="failures-list" class="failures-list">
+                    <!-- Failed pipeline details will be populated here -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by <a href="https://github.com/AXOVIA-ASPEN" target="_blank">ASPEN</a> 🌲</p>
+        </footer>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Docmind AI",
+    "owner": "Axovia-AI",
+    "repo": "docmind-ai",
+    "icon": "📄",
+    "description": "AI-powered PDF editor",
+    "status": "success",
+    "lastRun": "2026-02-13T02:45:00Z",
+    "buildNumber": 87,
+    "passRate": 94,
+    "runUrl": "https://github.com/Axovia-AI/docmind-ai/actions"
+  },
+  {
+    "name": "Flipper AI",
+    "owner": "AXOVIA-ASPEN",
+    "repo": "flipper-ai",
+    "icon": "🐧",
+    "description": "Multi-marketplace flipping tool",
+    "status": "success",
+    "lastRun": "2026-02-13T01:30:00Z",
+    "buildNumber": 42,
+    "passRate": 88,
+    "runUrl": "https://github.com/AXOVIA-ASPEN/flipper-ai/actions"
+  },
+  {
+    "name": "Axovia Website",
+    "owner": "Axovia-AI",
+    "repo": "axovia-official-website",
+    "icon": "🌐",
+    "description": "Official Axovia website",
+    "status": "success",
+    "lastRun": "2026-02-12T23:15:00Z",
+    "buildNumber": 156,
+    "passRate": 97,
+    "runUrl": "https://github.com/Axovia-AI/axovia-official-website/actions"
+  },
+  {
+    "name": "n8n Server",
+    "owner": "AXOVIA-ASPEN",
+    "repo": "n8n-server",
+    "icon": "🔄",
+    "description": "Workflow automation server",
+    "status": "success",
+    "lastRun": "2026-02-13T00:00:00Z",
+    "buildNumber": 12,
+    "passRate": 100,
+    "runUrl": "https://github.com/AXOVIA-ASPEN/n8n-server/actions"
+  },
+  {
+    "name": "Project Dashboard Template",
+    "owner": "AXOVIA-ASPEN",
+    "repo": "project-dashboard-template",
+    "icon": "📊",
+    "description": "Reusable dashboard template",
+    "status": "success",
+    "lastRun": "2026-02-13T02:00:00Z",
+    "buildNumber": 34,
+    "passRate": 92,
+    "runUrl": "https://github.com/AXOVIA-ASPEN/project-dashboard-template/actions"
+  },
+  {
+    "name": "Real Random Portal",
+    "owner": "AXOVIA-ASPEN",
+    "repo": "real-random-dev-portal",
+    "icon": "🎲",
+    "description": "Developer portal for Silverline Software",
+    "status": "in_progress",
+    "lastRun": "2026-02-13T03:00:00Z",
+    "buildNumber": 8,
+    "passRate": 75,
+    "runUrl": "https://github.com/AXOVIA-ASPEN/real-random-dev-portal/actions"
+  }
+]
