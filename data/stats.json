@@ -1,6 +1,6 @@
 {
-  "passing": 1,
+  "passing": 0,
   "failing": 1,
-  "running": 0,
-  "passRate": 17
+  "running": 1,
+  "passRate": 15
 }
