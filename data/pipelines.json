@@ -6,7 +6,7 @@
     "icon": "📄",
     "description": "AI-powered PDF editor",
     "status": "pending",
-    "lastRun": "2026-03-22T18:34:30.591Z",
+    "lastRun": "2026-03-22T19:05:13.986Z",
     "buildNumber": 0,
     "passRate": 0,
     "runUrl": "https://github.com/Axovia-AI/docmind-ai/actions"
@@ -17,11 +17,11 @@
     "repo": "flipper-ai",
     "icon": "🐧",
     "description": "Multi-marketplace flipping tool",
-    "status": "success",
-    "lastRun": "2026-03-22T18:30:49Z",
-    "buildNumber": 990,
-    "passRate": 100,
-    "runUrl": "https://github.com/AXOVIA-ASPEN/flipper-ai/actions/runs/23409633128"
+    "status": "in_progress",
+    "lastRun": "2026-03-22T19:05:11Z",
+    "buildNumber": 991,
+    "passRate": 90,
+    "runUrl": "https://github.com/AXOVIA-ASPEN/flipper-ai/actions/runs/23410280849"
   },
   {
     "name": "Axovia Website",
@@ -30,7 +30,7 @@
     "icon": "🌐",
     "description": "Official Axovia website",
     "status": "pending",
-    "lastRun": "2026-03-22T18:34:31.194Z",
+    "lastRun": "2026-03-22T19:05:14.609Z",
     "buildNumber": 0,
     "passRate": 0,
     "runUrl": "https://github.com/Axovia-AI/axovia-official-website/actions"
@@ -42,7 +42,7 @@
     "icon": "🔄",
     "description": "Workflow automation server",
     "status": "pending",
-    "lastRun": "2026-03-22T18:34:31.362Z",
+    "lastRun": "2026-03-22T19:05:14.725Z",
     "buildNumber": 0,
     "passRate": 0,
     "runUrl": "https://github.com/AXOVIA-ASPEN/n8n-server/actions"
@@ -54,10 +54,10 @@
     "icon": "📊",
     "description": "Reusable dashboard template",
     "status": "failure",
-    "lastRun": "2026-03-22T18:28:39Z",
-    "buildNumber": 1389,
+    "lastRun": "2026-03-22T19:01:43Z",
+    "buildNumber": 1390,
     "passRate": 0,
-    "runUrl": "https://github.com/AXOVIA-ASPEN/project-dashboard-template/actions/runs/23409591198"
+    "runUrl": "https://github.com/AXOVIA-ASPEN/project-dashboard-template/actions/runs/23410208971"
   },
   {
     "name": "Real Random Portal",
@@ -66,7 +66,7 @@
     "icon": "🎲",
     "description": "Developer portal for Silverline Software",
     "status": "pending",
-    "lastRun": "2026-03-22T18:34:32.248Z",
+    "lastRun": "2026-03-22T19:05:15.209Z",
     "buildNumber": 0,
     "passRate": 0,
     "runUrl": "https://github.com/AXOVIA-ASPEN/real-random-dev-portal/actions"
